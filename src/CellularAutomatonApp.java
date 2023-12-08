@@ -102,13 +102,13 @@ public class CellularAutomatonApp {
 
     private static JPanel createGridPanel() {
         JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(50, 50, 2, 2));
+        panel.setLayout(new GridLayout(70, 70, 2, 2));
 
         // Create buttons for each cell in the grid
-        for (int i = 0; i < 50; i++) {
-            for (int j = 0; j < 50; j++) {
+        for (int i = 0; i < 70; i++) {
+            for (int j = 0; j < 70; j++) {
                 JButton button = new JButton();
-                button.setPreferredSize(new Dimension(10, 10));
+                button.setPreferredSize(new Dimension(5, 5));
 
                 panel.add(button);
             }
@@ -145,7 +145,7 @@ public class CellularAutomatonApp {
                         return;
                     }
 
-                    CALogic calogic = new CALogic(50, 50, binaryValue);
+                    CALogic calogic = new CALogic(70, 70, binaryValue);
                     // Update calogic with the new binary input
                     calogic.setRule(binaryValue);
                     calogic.run();

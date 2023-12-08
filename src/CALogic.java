@@ -59,25 +59,22 @@ public class CALogic {
 
 
 
-    public int [][] run(){
-        int x; int y; int z;
+    public int [][] run() {
+        int x;
+        int y;
+        int z;
 
-        for(int i = 0; i < this.rows - 1; i++){
-            for(int j = 0; j < this.cols-2; j++){
+        for (int i = 0; i < this.rows - 1; i++) {
+            for (int j = 0; j < this.cols - 2; j++) {
 
                 x = this.matrix[i][j];
-                y = this.matrix[i][j+1];
-                z = this.matrix[i][j+2];
+                y = this.matrix[i][j + 1];
+                z = this.matrix[i][j + 2];
 
                 int nextGen = this.calculateNextGen(x, y, z);
-                matrix[i+1][j+1] = nextGen;
+                matrix[i + 1][j + 1] = nextGen;
             }
         }
         return this.matrix;
-    }
-
-    public static void main(String[] args) {
-        CALogic caLogic = new CALogic(10, 10, 00001010);
-        System.out.println(caLogic.getDecimal(11111010));
     }
 }

@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b3d0288-d65b-40b2-9faa-627684bf17f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CALogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CellularAutomatonApp.java" afterDir="false" />
+    <list default="true" id="1b3d0288-d65b-40b2-9faa-627684bf17f3" name="Changes" comment="Completed Cellular Automata Assignment for Java Application Programming.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CALogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CALogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellularAutomatonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CellularAutomatonApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,38 +33,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CALogic.executor": "Run",
-    "Application.CellularAutomatonApp (1).executor": "Run",
-    "Application.CellularAutomatonApp (2).executor": "Run",
-    "Application.CellularAutomatonApp (3).executor": "Run",
-    "Application.CellularAutomatonApp (4).executor": "Run",
-    "Application.CellularAutomatonApp (5).executor": "Run",
-    "Application.CellularAutomatonApp.executor": "Run",
-    "Application.CellularAutomatonGUI.executor": "Run",
-    "Application.GUI.executor": "Run",
-    "Application.GridSwingApp.executor": "Run",
-    "Application.Logic.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.SimpleSwingApp.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Level 4/JAP/A12/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CALogic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CellularAutomatonApp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CellularAutomatonApp (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CellularAutomatonApp (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CellularAutomatonApp (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CellularAutomatonApp (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CellularAutomatonApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CellularAutomatonGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GridSwingApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Logic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleSwingApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Level 4/JAP/A12/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.CellularAutomatonApp">
     <configuration name="CALogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CALogic" />
+      <module name="A12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CellularAutomatonApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
       <module name="A12" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,13 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CellularAutomatonApp (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
-      <module name="A12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CellularAutomatonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
       <module name="A12" />
@@ -106,9 +101,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CellularAutomatonApp" />
-        <item itemvalue="Application.CellularAutomatonApp (4)" />
         <item itemvalue="Application.CellularAutomatonApp (3)" />
         <item itemvalue="Application.CellularAutomatonApp (2)" />
+        <item itemvalue="Application.CellularAutomatonApp (1)" />
         <item itemvalue="Application.CALogic" />
       </list>
     </recent_temporary>
@@ -130,8 +125,21 @@
       <updated>1701973089054</updated>
       <workItem from="1701973090400" duration="8660000" />
       <workItem from="1701990972088" duration="5538000" />
-      <workItem from="1702004704054" duration="4630000" />
+      <workItem from="1702004704054" duration="4818000" />
+      <workItem from="1702012991723" duration="58000" />
+      <workItem from="1702016101545" duration="227000" />
+      <workItem from="1702016693173" duration="117000" />
+      <workItem from="1702072884285" duration="162000" />
     </task>
+    <task id="LOCAL-00001" summary="Completed Cellular Automata Assignment for Java Application Programming.">
+      <option name="closed" value="true" />
+      <created>1702009690974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702009690974</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +155,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed Cellular Automata Assignment for Java Application Programming." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Cellular Automata Assignment for Java Application Programming." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
