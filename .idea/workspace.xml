@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="A12:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b3d0288-d65b-40b2-9faa-627684bf17f3" name="Changes" comment="Completed Cellular Automata Assignment for Java Application Programming.">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/A12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CALogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CALogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CellularAutomatonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CellularAutomatonApp.java" afterDir="false" />
@@ -33,50 +40,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CALogic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CellularAutomatonApp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CellularAutomatonApp (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CellularAutomatonApp (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CellularAutomatonApp (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CellularAutomatonApp (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CellularAutomatonApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CellularAutomatonGUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GridSwingApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Logic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleSwingApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Level 4/JAP/A12/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CALogic.executor": "Run",
+    "Application.CellularAutomatonApp (1).executor": "Debug",
+    "Application.CellularAutomatonApp (2).executor": "Run",
+    "Application.CellularAutomatonApp (3).executor": "Run",
+    "Application.CellularAutomatonApp (4).executor": "Run",
+    "Application.CellularAutomatonApp (5).executor": "Run",
+    "Application.CellularAutomatonApp.executor": "Run",
+    "Application.CellularAutomatonGUI.executor": "Run",
+    "Application.GUI.executor": "Run",
+    "Application.GridSwingApp.executor": "Run",
+    "Application.Logic.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SimpleSwingApp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Level 4/JAP/A12/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Level 4/JAP/A12/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.CellularAutomatonApp">
-    <configuration name="CALogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CALogic" />
-      <module name="A12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CellularAutomatonApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
-      <module name="A12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.CellularAutomatonApp (5)">
     <configuration name="CellularAutomatonApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
       <module name="A12" />
@@ -85,6 +83,20 @@
       </method>
     </configuration>
     <configuration name="CellularAutomatonApp (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
+      <module name="A12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CellularAutomatonApp (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
+      <module name="A12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CellularAutomatonApp (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CellularAutomatonApp" />
       <module name="A12" />
       <method v="2">
@@ -100,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CellularAutomatonApp (5)" />
         <item itemvalue="Application.CellularAutomatonApp" />
+        <item itemvalue="Application.CellularAutomatonApp (4)" />
         <item itemvalue="Application.CellularAutomatonApp (3)" />
         <item itemvalue="Application.CellularAutomatonApp (2)" />
-        <item itemvalue="Application.CellularAutomatonApp (1)" />
-        <item itemvalue="Application.CALogic" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +141,14 @@
       <workItem from="1702012991723" duration="58000" />
       <workItem from="1702016101545" duration="227000" />
       <workItem from="1702016693173" duration="117000" />
-      <workItem from="1702072884285" duration="162000" />
+      <workItem from="1702072884285" duration="1400000" />
+      <workItem from="1702074514720" duration="318000" />
+      <workItem from="1702075023496" duration="67000" />
+      <workItem from="1702075303967" duration="576000" />
+      <workItem from="1702076005594" duration="36000" />
+      <workItem from="1702078129054" duration="627000" />
+      <workItem from="1702082119200" duration="2325000" />
+      <workItem from="1702094188469" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Cellular Automata Assignment for Java Application Programming.">
       <option name="closed" value="true" />

@@ -2,17 +2,23 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
-import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
 
 public class CellularAutomatonApp {
 
+    // Constants for language selection
     private static final String ENGLISH = "English";
     private static final String FRENCH = "French";
+
+    // Help messages for different languages
     private static final String HELP_MESSAGE_EN = "Welcome to Cellular Automaton App!";
     private static final String HELP_MESSAGE_FR = "Bienvenue dans l'application d'automates cellulaires !";
 
+    /**
+     * The main method to launch the Cellular Automaton application.
+     *
+     * @param args Command line arguments (unused).
+     */
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Cellular Automaton App");
@@ -23,12 +29,10 @@ public class CellularAutomatonApp {
             // Create a panel for the grid
             JPanel gridPanel = createGridPanel();
 
-            // Create a panel for input and update button
+            // Create a panel for input and update button, including the toolbar
             JPanel inputPanel = createInputPanel(frame, gridPanel);
 
-            // Create a toolbar
-            JToolBar toolBar = createToolBar(frame);
-
+            // Create an image label
             JLabel imageLabel = new JLabel();
             ImageIcon imageIcon = new ImageIcon("./media/ca.png");
             int fixedWidth = 600;
@@ -36,9 +40,8 @@ public class CellularAutomatonApp {
             imageIcon = new ImageIcon(image);
             imageLabel.setIcon(imageIcon);
 
-            // Use BorderLayout to position the toolbar at the top, grid at the center, and input at the bottom
+            // Use BorderLayout to position the image label at the top, grid at the center, and input at the bottom
             frame.setLayout(new BorderLayout());
-            frame.add(toolBar, BorderLayout.NORTH);
             frame.add(imageLabel, BorderLayout.NORTH);
             frame.add(gridPanel, BorderLayout.CENTER);
             frame.add(inputPanel, BorderLayout.SOUTH);
@@ -48,7 +51,14 @@ public class CellularAutomatonApp {
         });
     }
 
-    private static JToolBar createToolBar(JFrame frame) {
+    /**
+     * Creates a toolbar with language selection buttons and a help button.
+     *
+     * @param frame The JFrame to which the toolbar is added.
+     * @param inputPanel The input panel where the toolbar will be added.
+     * @return The created toolbar.
+     */
+    private static JToolBar createToolBar(JFrame frame, JPanel inputPanel) {
         JToolBar toolBar = new JToolBar();
 
         // Language Selection Button Group
@@ -97,12 +107,20 @@ public class CellularAutomatonApp {
         toolBar.addSeparator();
         toolBar.add(helpButton);
 
+        // Add the toolbar to the input panel
+        inputPanel.add(toolBar);
+
         return toolBar;
     }
 
+    /**
+     * Creates a panel for the grid.
+     *
+     * @return The created grid panel.
+     */
     private static JPanel createGridPanel() {
         JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(70, 70, 2, 2));
+        panel.setLayout(new GridLayout(70, 70, 1, 1));
 
         // Create buttons for each cell in the grid
         for (int i = 0; i < 70; i++) {
@@ -117,8 +135,18 @@ public class CellularAutomatonApp {
         return panel;
     }
 
+    /**
+     * Creates a panel for input and update button.
+     *
+     * @param frame     The JFrame to which the panel is added.
+     * @param gridPanel The grid panel for updating the button colors.
+     * @return The created input panel.
+     */
     private static JPanel createInputPanel(JFrame frame, JPanel gridPanel) {
         JPanel panel = new JPanel();
+
+        // Create a toolbar and add it to the input panel
+        JToolBar toolBar = createToolBar(frame, panel);
 
         // Create a text field for input
         JTextField inputField = new JTextField(20); // 20 columns
@@ -138,6 +166,8 @@ public class CellularAutomatonApp {
             public void actionPerformed(ActionEvent e) {
                 try {
                     int binaryValue = Integer.parseInt(inputField.getText());
+
+
 
                     // Ensure that the binary input has the correct number of bits
                     if (Integer.toString(binaryValue).length() != 8) {
@@ -164,6 +194,12 @@ public class CellularAutomatonApp {
         return panel;
     }
 
+    /**
+     * Updates the color of buttons in the grid panel based on the new matrix values.
+     *
+     * @param gridPanel The panel containing the grid of buttons.
+     * @param calogic   The Cellular Automaton logic object.
+     */
     private static void updateGridPanel(JPanel gridPanel, CALogic calogic) {
         Component[] components = gridPanel.getComponents();
         int index = 0;
@@ -177,6 +213,11 @@ public class CellularAutomatonApp {
         }
     }
 
+    /**
+     * Sets the language of the application.
+     *
+     * @param language The selected language.
+     */
     private static void setLanguage(String language) {
         System.out.println("Language selected: " + language);
     }
